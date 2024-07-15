@@ -1,0 +1,109 @@
+body {
+  background-image: url('/1.jpg');
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f0f0f0; /* Placeholder background color */
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;  /* Header text color */
+}
+
+.top-menu {
+  background-color: #333; /* Dark background color */
+  color: #fff;  /* White text */
+  padding: 10px 0;
+  text-align: center;
+}
+
+.top-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.top-menu ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top-menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+
+.top-menu ul li a:hover {
+  background-color: #555;   /* Darker background on hover */
+}
+
+.main-content {
+  text-align: center;
+  margin: 20px auto; /* Centering the content */
+  max-width: 800px;
+}
+
+.content {
+  text-align: left;
+  border-radius: 2%;
+  padding: 20px;
+  background-color:#ececec;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* box shadow */
+}
+
+/* styling for the recipe details container */
+.recipe-details {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.recipe-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Section headers (Directions, Ingredients, Images) */
+.recipe-details h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #555;
+}
+
+/* Paragraph styling for directions */
+.recipe-details p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* List styling for ingredients */
+.recipe-details ul {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.recipe-details ul li {
+  margin-bottom: 8px;
+}
